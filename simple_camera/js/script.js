@@ -82,7 +82,7 @@ var CameraApp = {
         // this.onNewFrame();
 
         var canvas = document.getElementById('canvas');
-      var context = canvas.getContext('2d');
+        var context = canvas.getContext('2d');
 
         
 
@@ -91,7 +91,7 @@ var CameraApp = {
 
             event.data.forEach(function(rect) {
                 context.strokeStyle = '#a64ceb';
-                context.strokeRect(rect.x, rect.y, rect.width, rect.height);
+                context.strokeRect(rect.x, rect.y-25, rect.width, rect.height);
             });
         });
     },
