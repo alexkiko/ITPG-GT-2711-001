@@ -84,15 +84,21 @@ var CameraApp = {
         var canvas = document.getElementById('canvas');
         var context = canvas.getContext('2d');
 
-        
+        $('#smiley').css({
+            'z-index':'10'
+        });
 
         tracker.on('track', function(event) {
-            context.clearRect(0, 0, canvas.width, canvas.height);
 
-            event.data.forEach(function(rect) {
-                context.strokeStyle = '#a64ceb';
-                context.strokeRect(rect.x, rect.y-25, rect.width, rect.height);
+            event.data.forEach(function(face) {
+                $('#smiley img').css({
+                    'left':face.x + $('#video').offset().left,
+                    'top':face.y + $('#video').offset().top,
+                    'width':face.width,
+                    'height':face.height
+                });
             });
+
         });
     },
 
