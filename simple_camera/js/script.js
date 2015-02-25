@@ -1,5 +1,5 @@
-var faceX;
-var faceY;
+var faceX = 0;
+var faceY = 0;
 
 'use strict';
 
@@ -99,8 +99,8 @@ var CameraApp = {
         tracker.on('track', function(event) {
 
             event.data.forEach(function(face) {
-                faceX = face.x;
-                faceY = face.y;
+                faceX = face.x - 210/2;
+                faceY = face.y - 130/2;
                 $('#smiley img').css({
                     'left':face.x + $('#video').offset().left,
                     'top':face.y + $('#video').offset().top,
@@ -318,9 +318,11 @@ function animate() {
 }
 
 function render() {
+    console.log(faceX);
+    console.log(faceY);
 
-    camera.position.x += ( mouseX - camera.position.x ) * 0.05;
-    camera.position.y += ( - mouseY - camera.position.y ) * 0.05;
+    camera.position.x += ( faceX * 10 - camera.position.x ) * 0.05;
+    camera.position.y += ( faceY  * 10 - camera.position.y ) * 0.05;
 
     camera.lookAt( scene.position );
 
