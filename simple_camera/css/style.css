@@ -41,33 +41,33 @@ h1 {
 	width: 575px;
 }
 
-#mode-select {
-	z-index: 12;
+div#mode-select {
+
 }
 
-.btn {
-	position: relative;
-	float: left;
-	padding: 15px 50px;
+
+#mode-select > button {
+	display:block;
+	padding: 10px 20px;
 	background: none;
 	border: 1px solid white;
-	border-radius: 25px;
+	border-radius: 5px;
 	color: white;
-	width: auto;
+	width: 20%;
 	font-weight: 100;
 
-	font-size: 300%;
+	font-size: 130%;
 
 	line-height: 120%;
-	outline: none;
 
 	font-family: 'Montserrat', sans-serif;
-	letter-spacing: -3px;
+	letter-spacing: 0px;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-stroke-color: rgba(0,0,0,0.5);
-	-webkit-text-stroke-width: 2px;
-	font-weight: 100;
+	-webkit-text-stroke-width: 4px;
+	font-weight: 130;
 }
+
 
 .btn.right {
 	float: right;
@@ -211,6 +211,10 @@ div.mask{
 	background-size: contain;
 	z-index: 10;
 	opacity:  0;
+}
+
+div#mode-select button{
+	diplay: inline block;
 }
 
 div#mask1 {

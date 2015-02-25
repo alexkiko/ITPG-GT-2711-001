@@ -64,16 +64,17 @@ var CameraApp = {
         {
 
         $('#mode-select > button').click(function(){
-            $('#start h1').text("START");
-            started = true;
-            $('#mode-select > button').css({'z-index':'8'});
+            CameraApp.startCamera();
+            //$('#mode-select > button').css({'z-index':'8'});
             $('#mode-select > button').hide();
 
         });
 
+
+
         // if (started == true){
             $('#start').bind('click', function(){
-                CameraApp.startCamera();
+                
             });
         // };
 
@@ -121,6 +122,8 @@ var CameraApp = {
         });
 
         });
+
+
 
     },
 
