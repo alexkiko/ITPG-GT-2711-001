@@ -90,18 +90,34 @@ var CameraApp = {
 
         $('#inverted').click(function(){
             $('video').css({
-                 '-webkit-filter': 'grayscale(1)'
+                 '-webkit-filter': 'invert(1)'
             });
             $('#camera div[id^=mask]').css({
-                '-webkit-filter': 'grayscale(1)'
+                '-webkit-filter': 'invert(1)'
+            });
+
         });
 
-        $('#nv').click(function(){
+
+        $('#comic').click(function(){
             $('video').css({
-                 '-webkit-filter': 'grayscale(1)'
+                '-webkit-filter': 'grayscale(1) contrast(10) brightness(3)'
             });
+
             $('#camera div[id^=mask]').css({
-                '-webkit-filter': 'grayscale(1)'
+                '-webkit-filter': 'grayscale(1) contrast(10) brightness(3)'
+        });
+
+        });
+
+
+        $('#school').click(function(){
+            $('video').css({
+                '-webkit-filter': 'blur(1px) contrast(5.9) sepia(1)'
+            });
+
+            $('#camera div[id^=mask]').css({
+                '-webkit-filter': 'blur(1px) contrast(5.9) sepia(1)'
         });
 
         });
