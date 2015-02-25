@@ -26,12 +26,16 @@ var tracker;
 
 /************************************************/
 
+var bw;
+var frameNum = 0;
 var camera;
 var masks;
+var started = false;
 var CameraApp = {
     /**
      * Instantiate the Camera object.
      */
+
     init: function()
     {
         // camera = new Camera();
@@ -50,16 +54,58 @@ var CameraApp = {
         this.start();
 
 
+
     },
 
     /**
      * Set a CLICK event listener on the "start" html element. When it is clicked, call the startCamera function
      */
     start: function()
-    {
-        $('#start').bind('click', function(){
-            CameraApp.startCamera();
+        {
+
+        $('#mode-select > button').click(function(){
+            $('#start h1').text("START");
+            started = true;
+            $('#mode-select > button').css({'z-index':'8'});
+            $('#mode-select > button').hide();
+
         });
+
+        // if (started == true){
+            $('#start').bind('click', function(){
+                CameraApp.startCamera();
+            });
+        // };
+
+        //execute these functions when the black and white mode is active
+        $('#bw').click(function(){
+            $('video').css({
+                 '-webkit-filter': 'grayscale(1)'
+            });
+            $('#camera div[id^=mask]').css({
+                '-webkit-filter': 'grayscale(1)'
+            });
+
+        });
+
+        $('#inverted').click(function(){
+            $('video').css({
+                 '-webkit-filter': 'grayscale(1)'
+            });
+            $('#camera div[id^=mask]').css({
+                '-webkit-filter': 'grayscale(1)'
+        });
+
+        $('#nv').click(function(){
+            $('video').css({
+                 '-webkit-filter': 'grayscale(1)'
+            });
+            $('#camera div[id^=mask]').css({
+                '-webkit-filter': 'grayscale(1)'
+        });
+
+        });
+
     },
 
     /**
@@ -87,6 +133,7 @@ var CameraApp = {
      */
     startCamera: function() {
         $('#start').hide();
+        $('#mode-select').hide();
 
         this.cameraEnabled = true;
         // this.onNewFrame();
@@ -142,9 +189,17 @@ var CameraApp = {
         this.monitor.setImage(camera.video);
         if (this.cameraEnabled) {
             requestAnimationFrame(this.onNewFrame.bind(this));
+
         }
     }
 };
+
+ //---------------my code
+
+
+
+//------
+
 
 /*
 * When the html document model is loaded and ready, start the CameraApp's init function
