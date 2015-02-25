@@ -1,5 +1,10 @@
 'use strict';
 
+// fullscreen kiosk mode
+//chrome.windows.getCurrent(null, function(win) {
+   // chrome.windows.update(win.id, {state: 'fullscreen'});
+//});
+
 /**
  * CONFIGURABLE SETTINGS
  */
@@ -22,7 +27,7 @@ var tracker;
 /************************************************/
 
 var camera;
-
+var masks;
 var CameraApp = {
     /**
      * Instantiate the Camera object.
@@ -32,6 +37,9 @@ var CameraApp = {
         // camera = new Camera();
         // camera.startCapture(this.onCameraReady.bind(this), this.onCameraError);
 
+        masks = document.getElementsByClassName('mask');
+
+
         tracker = new tracking.ObjectTracker('face');
         tracker.setInitialScale(4);
         tracker.setStepSize(2);
@@ -40,6 +48,8 @@ var CameraApp = {
         tracking.track('#video', tracker, { camera: true });
 
         this.start();
+
+
     },
 
     /**
@@ -84,23 +94,39 @@ var CameraApp = {
         var canvas = document.getElementById('canvas');
         var context = canvas.getContext('2d');
 
-        $('#smiley').css({
-            'z-index':'10'
-        });
-
         tracker.on('track', function(event) {
 
-            event.data.forEach(function(face) {
-                $('#smiley img').css({
-                    'left':face.x + $('#video').offset().left,
-                    'top':face.y + $('#video').offset().top,
-                    'width':face.width,
-                    'height':face.height
-                });
+            console.log(event.data.length);
+
+            event.data.forEach(function(face,myIndex) {
+               var video = document.getElementById("video");
+               var masks = document.getElementsByClassName("mask");
+
+                masks[myIndex].style.opacity = "1";
+                masks[myIndex].style.top = (face.y + video.offsetTop)+"px";
+                masks[myIndex].style.left = (face.x + video.offsetLeft)+"px";
+                masks[myIndex].style.width = face.width + "px";
+                masks[myIndex].style.height = face.height + "px";
+
+
+
             });
 
+
+            for(var k = event.data.length; k < 3; k++){
+                var masks = document.getElementsByClassName("mask");
+                masks[k].style.opacity = 0;
+            }
+
         });
-    },
+     
+     },
+
+
+
+//     for (i = 0; i < mask.length; i++) { 
+//     text += cars[i] + "<br>";
+// }
 
     /**
      * Call the onNewFrame function, but set the camera mode to be OFF before making the call
