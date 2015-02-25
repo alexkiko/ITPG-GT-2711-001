@@ -67,6 +67,8 @@ Workshop 2: Daft Punk Konsole example. In groups, students will concept interest
 
 Case Study: RAA Media’s Interactive Multi-User Touch Table for the Eaton Experience Center
 
+---
+
 Assignment #2: Experiment with the Simple Camera app. Think about what you would change with its current implementation, and about what types of functionality you would want to add to it as a next step. Extended functionality can range from simply re-creating the animated GIF factory you saw in the Twitter demo, to adding support for capturing and rendering video clips, to creating new interactions via user input events.
 
 --
@@ -77,17 +79,19 @@ Discuss trending ideas generated from Assignment #2:
 * Face detection
 * WebKit filters
 
-Workshop: Walkthrough/tutorial of adding face detection to the simple camera app. Git branching will also be briefly discussed. Second part of workshop will add a webkit filter tool to the app.
+Workshop: Walkthrough/tutorial of adding face detection to the simple camera app.
 
-Discussion of how application screens and components can be configured and integrated. Webviews and their use in kiosks will be discussed, along with the pros and cons of using webviews in isolated and distributed systems. We will discuss using Kiosk mode for Chrome applications, node webkit and Cocoa applications as webview wrappers. 
+Workshop: Implement a student-derived extension to the simple camera app: superimpose an image into the video render, tethered to user face location.
 
-Workshop: Create all 3 application variants of the camera app.
+Students will form into smaller teams and ideate on this week's assignment.
 
 BREAK
 
-Workshop: Students will create a “matrix” of what specific behaviors to capture in their application prototype. A tracking system such as Flurry or Google Analytics will be overviewed.
+Discuss Git branching for each team's assignment work. 
 
-Discussion of tracking systems such as Google Analytics and Flurry and a walkthrough demonstration of how to implement in a webview.
+Discussion of how application screens and components can be configured and integrated. Webviews and their use in kiosks will be discussed, along with the pros and cons of using webviews in isolated and distributed systems. We will discuss using Kiosk mode for Chrome applications, node webkit and Cocoa applications as webview wrappers. 
+
+Tutorial on setting up a web application into each: Chrome App, NW.js and webview in Cocoa App.
 
 ---
 
@@ -95,12 +99,24 @@ Assignment #3: Expand on the web app created in class to add tracking and metric
 
 --
 
-##### Week 4 | 2/25 - Collaboration
-Share analytics and metrics gathered from Assignment #3. Discuss how that data could be used to iterate on an interaction concept.
+##### Week 4 | 2/25 - Metrics & Collaboration
+Share team efforts on extending the simple camera app during Assignment #3.
+
+Discussion of tracking systems such as Google Analytics and Flurry and a walkthrough demonstration of how to implement in a webview and how that data could be used to iterate on teams' extended interaction concepts.
+
+Workshop: Students will create a “matrix” of what specific behaviors to capture in their application prototype.
+
+Tutorial: Walkthrough of how to implement some examples using Google Analytics.
+
+BREAK
 
 Best practices for version control and shared assets/resources and project architecture will be discussed and tools for creative and functional collaboration will be introduced and set up.
 
-Workshop: Students will be assigned into smaller teams to begin concept and strategy work behind their project for the semester.
+Workshop: Teams to begin concept and strategy work behind their project for the semester.
+
+Teams to present their concepts to the entire class.
+
+Tutorial: Continuation of webview platforms, discussing how to run webviews in Cocoa.
 
 ---
 
