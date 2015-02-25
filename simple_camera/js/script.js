@@ -1,10 +1,5 @@
 'use strict';
 
-// fullscreen kiosk mode
-chrome.windows.getCurrent(null, function(win) {
-    chrome.windows.update(win.id, {state: 'fullscreen'});
-});
-
 /**
  * CONFIGURABLE SETTINGS
  */
