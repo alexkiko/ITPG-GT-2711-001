@@ -321,8 +321,8 @@ function render() {
     console.log(faceX);
     console.log(faceY);
 
-    camera.position.x += ( faceX * 10 - camera.position.x ) * 0.05;
-    camera.position.y += ( faceY  * 10 - camera.position.y ) * 0.05;
+    camera.position.x += ( faceX * 5 - camera.position.x ) * 0.05;
+    camera.position.y += ( -faceY  * 10 - camera.position.y ) * 0.05;
 
     camera.lookAt( scene.position );
 
