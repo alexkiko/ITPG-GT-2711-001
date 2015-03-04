@@ -120,20 +120,20 @@ Tutorial: Continuation of webview platforms, discussing how to run webviews in C
 
 ---
 
-Assignment #4: Requirements Gathering. Project Teams will work collaboratively to define sets for application usability, functional requirements, technical requirements, hardware provisioning and assets gathering.
+Assignment #4: Begin project proposals.
 
 --
 
 #####Week 5 | 3/4 - Project Pre-planning
-Overview of Agile Methodologies for software development and an introduction to Redmine, the open source tracker software teams will use to manage their projects.
+Introduction to Agile Methodologies for software development and what concepts will be implemented to accomodate class needs via Trello, a free project organization tool that project teams will use to manage their projects.
 
-Workshop: set up Redmine with Agile plugins for each Project Team.
+Overview of the major project proposals and project types we'll set up as organizations in Trello. Students will break up into the projects which best suit their interests and skills.
 
-Project Teams will organize their application concept into user “stories” with attached “tasks” accordingly, and will delegate tasks by committee. Project plans will then be vetted with the professor to gauge feasibility within the 3-4 sprint development period.
+Workshop: In teams, students will setup Trello and begin to organize their application concept into user “stories” with attached “tasks” accordingly, and will delegate member roles and tasks by committee. Project plans will then be vetted with the instructor to gauge feasibility within the 3-4 sprint development period.
 
 ---
 
-Assignment #5: Project Teams to set up project schedule, assign team roles and establish milestones.
+Assignment #5: Project Teams to set up project schedule and complete Sprint Planning for Sprint 1.
 
 --
 
