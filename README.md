@@ -142,26 +142,23 @@ Project Teams to begin work on application concepts and begin work on real-time 
 
 --
 
-##### Week 7 | 3/11 : Project Round Robin 1
-Demo of in-progress applications to a sibling group. 
+##### Week 7 | 3/11 : Project Sprint 2
 Findings and feedback to be remediated via Agile Development “Stories” and “Tasks”.
 
 --
 
-##### Week 8 | 3/25 : Pitch Preparation and Project Sprint 2
-Guest speaker Alexander Rea, Co:Collective, to discuss the finer arts of pitch presentation (TBC).
-
+##### Week 8 | 3/25 : Project Sprint 3
 Project Teams to continue work on applications and begin putting together key points for presentation. 
 
 --
 
-##### Week 9 | 4/1 : Project Round Robin 2
-Demo of in-progress applications and presentations to a sibling group. 
+##### Week 9 | 3/27 : Project Round Robin 1
+Presentation of in-progress applications and presentations to a sibling group. 
 Findings and feedback to be remediated via Agile Development “Stories” and “Tasks”.
 
 --
 
-##### Week 10 | 4/8 : User Group Testing
+##### Week 10 | 4/10 : User Group Testing
 Project applications will undergo user group testing; each Project Team is responsible for targeting, sourcing and organizing one or more user groups to conduct usability testing on their in-progress builds. 
 
 Project Teams will monitor user groups during the workshop to collect usage patterns and observe behaviors. 
@@ -170,13 +167,14 @@ Project Teams are advised to use both analog and digital forms of gathering metr
 
 --
 
-##### Week 11 | 4/15 : Project Sprint 3
+##### Week 11 | 4/17 : Project Sprint 4
 Project Teams to begin continue work on applications. Results from user group testing should be reflected in the project dashboard.
+Begin putting together key points for presentation. 
 
 --
 
-##### Week 12 | 4/22 : Project Round Robin 3
-Final round of demos of in-progress applications and presentations to a sibling group. 
+##### Week 12 | 4/22 : Pitch Preparation and Project Round Robin 2
+Guest speaker Alexander Rea, Co:Collective, to discuss the finer arts of pitch presentation (TBC).
 Findings and feedback to be remediated via Agile Development “Stories” and “Tasks”.
 
 --
