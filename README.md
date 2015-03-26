@@ -20,7 +20,7 @@ Students will:
 --
 
 ### Schedule
-##### Week 1 | 2/4 - Introduction
+##### Class 1 | 2/4 - Introduction
 
 The syllabus will be reviewed in detail along with a discussion of core class concepts and an overview of technical tools and techniques to be learned and used over the course of the semester. 
 
@@ -51,14 +51,14 @@ Suggested locations to visit:
 
 --
 
-##### Week 2 | 2/11 - Designing Interactions
+##### Class 2 | 2/11 - Designing Interactions
 Discuss results of Assignment #1 and whiteboard the various sites visited; capture the type of input methods each implements.
 
 Overview of basic user event inputs and event types; the mouse and touch parallel, multi-touch, sensors, etc. Discussion of how to handle these events in an application and the problems that arise from real-world scenarios. 
 
 Workshop 1: Simple photobooth web app example
 
-Review brainstorming concepts from Week 1 and select the 3-4 most vialble concepts and discuss parameters of viability. 
+Review brainstorming concepts from Class 1 and select the 3-4 most vialble concepts and discuss parameters of viability. 
 Students will form into groups based on which of the 3-4 concepts they would like to work on most.
 
 BREAK
@@ -73,7 +73,7 @@ Assignment #2: Experiment with the Simple Camera app. Think about what you would
 
 --
 
-##### Week 3 | 2/18 - Development Platforms
+##### Class 3 | 2/18 - Development Platforms
 Discuss trending ideas generated from Assignment #2:
 
 * Face detection
@@ -99,7 +99,7 @@ Assignment #3: Expand on the web app created in class to add tracking and metric
 
 --
 
-##### Week 4 | 2/25 - Metrics & Collaboration
+##### Class 4 | 2/25 - Metrics & Collaboration
 Share team efforts on extending the simple camera app during Assignment #3.
 
 Discussion of tracking systems such as Google Analytics and Flurry and a walkthrough demonstration of how to implement in a webview and how that data could be used to iterate on teams' extended interaction concepts.
@@ -124,7 +124,7 @@ Assignment #4: Begin project proposals.
 
 --
 
-#####Week 5 | 3/4 - Project Pre-planning
+#####Class 5 | 3/4 - Project Pre-planning
 Introduction to Agile Methodologies for software development and what concepts will be implemented to accomodate class needs via Trello, a free project organization tool that project teams will use to manage their projects.
 
 Overview of the major project proposals and project types we'll set up as organizations in Trello. Students will break up into the projects which best suit their interests and skills.
@@ -137,28 +137,39 @@ Assignment #5: Project Teams to set up project schedule and complete Sprint Plan
 
 --
 
-##### Week 6 | 3/6 - Project Sprint 1
+##### Class 6 | 3/6 - Project Sprint 1
 Project Teams to begin work on application concepts and begin work on real-time design and development via rapid prototyping, incorporating lessons learned and code completed from previous assignments. 
 
 --
 
-##### Week 7 | 3/11 : Project Sprint 2
+##### Class 7 | 3/11 : Project Sprint 2
 Findings and feedback to be remediated via Agile Development “Stories” and “Tasks”.
 
 --
 
-##### Week 8 | 3/25 : Project Sprint 3
+##### Class 8 | 3/25 - Project Sprint 3
 Project Teams to continue work on applications and begin putting together key points for presentation. 
 
 --
 
-##### Week 9 | 3/27 : Project Round Robin 1
-Presentation of in-progress applications and presentations to a sibling group. 
-Findings and feedback to be remediated via Agile Development “Stories” and “Tasks”.
+##### Class 9 | 3/27 @ 5:30PM - Workflow + Planning
+Discussion of workflow integrating Github branching with Trello tasks.
+Establish schedule and milestones for each project team.
 
 --
 
-##### Week 10 | 4/10 : User Group Testing
+##### Class 10 | 4/1 - Project Sprint 3 Review + Sprint 4 Planning
+Each project team will review project progress and plan for the next sprint with the instructor.
+Continue work on applications.
+
+--
+
+##### Class 11 | 4/10 : Project Sprint 4 Review + Sprint 5 Planning
+Review of previous week's progress and plan for the next sprint. Project Teams to begin continue work on applications and begin planning format for user testing. Teams should devise a schedule and plan for performing user testing either during or outside of the next class meeting.
+
+--
+
+##### Class 12 | 4/20 : User Group Testing
 Project applications will undergo user group testing; each Project Team is responsible for targeting, sourcing and organizing one or more user groups to conduct usability testing on their in-progress builds. 
 
 Project Teams will monitor user groups during the workshop to collect usage patterns and observe behaviors. 
@@ -167,26 +178,19 @@ Project Teams are advised to use both analog and digital forms of gathering metr
 
 --
 
-##### Week 11 | 4/17 : Project Sprint 4
-Project Teams to begin continue work on applications. Results from user group testing should be reflected in the project dashboard.
-Begin putting together key points for presentation. 
+##### Class 13 | 4/22 : Project Sprint 5 Review + Final Sprint Planning
+Discuss learnings and metrics from user testing exercise.
+Critical assessment of project progress and prepare for final builds and presentations. Finalize deployment, fabrication and installation details.
 
 --
 
-##### Week 12 | 4/22 : Pitch Preparation and Project Round Robin 2
+##### Class 14 | 4/29 : Pitch Preparation
 Guest speaker Alexander Rea, Co:Collective, to discuss the finer arts of pitch presentation (TBC).
-Findings and feedback to be remediated via Agile Development “Stories” and “Tasks”.
 
 --
 
-##### Week 13 | 4/29 : Project Presentations - Round 1
-Full class presentation with guest critic Caleb Johnston, Control Group Head of Design Technology, (TBC).
-Students will capture feedback and incorporate for the final round the next week.
-
---
-
-##### Week 14 | 5/6 : Project Presentations - Round 2
-Full class final project presentations with guest critic Nina Tandon, TED Fellow and founder of Epibone, (TBC).
+##### Class 15 | 5/6 : Project Presentations
+Full class final project presentations with guest critics Nina Tandon, TED Fellow and founder of Epibone and Caleb Johnston, Control Group. (TBC)
 
 --
 
