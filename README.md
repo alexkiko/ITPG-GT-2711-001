@@ -153,6 +153,7 @@ Project Teams to continue work on applications and begin putting together key po
 --
 
 ##### Class 9 | 3/27 @ 5:30PM - Workflow + Planning
+Workshop: UX wireframing and user flows. We'll look at a handful of real-world examples and then create wires + charts for each projec team.
 Discussion of workflow integrating Github branching with Trello tasks.
 Establish schedule and milestones for each project team.
 
