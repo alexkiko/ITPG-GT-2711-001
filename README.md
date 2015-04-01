@@ -152,14 +152,19 @@ Project Teams to continue work on applications and begin putting together key po
 
 --
 
-##### Class 9 | 3/27 @ 5:30PM - Workflow + Planning
-Workshop: UX wireframing and user flows. We'll look at a handful of real-world examples and then create wires + charts for each project team.
-Discussion of workflow integrating Github branching with Trello tasks.
-Establish schedule and milestones for each project team.
+##### Class 9 | 3/27 @ 5:30PM - UX, Wireframing, Diagramming and Planning
+Workshop: UX wireframing, user experience flows and architecture diagrams. We'll look at a handful of real-world examples and then create wires + charts for each project team.
+
+Each project team is expected to create documents illustrating or accounting for:
+* Installation components, including all hardware and software dependencies
+* Software experience, detailing the user experience within the application
+
+Discuss schedule and milestones.
 
 --
 
 ##### Class 10 | 4/1 - Project Sprint 3 Review + Sprint 4 Planning
+Case Study: Leveraging WebKit + Node.js for desktop applications. Walkthrough of applications created for Twitter Interactives for audio visualization and undocumented Vine API integration.
 Each project team will review project progress and plan for the next sprint with the instructor.
 Continue work on applications.
 
